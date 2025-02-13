@@ -87,7 +87,7 @@
         text-align: center;
     }
 
-    section#feedback h2 {
+    section#feedback > h2 {
         text-align: left;
         margin: 50px;
     }
@@ -116,10 +116,28 @@
         border: none;
         border-radius: 10px;
         margin-right: 11em;
-        margin-bottom: 3em;
     }
-
+    .feedbackIndividual {
+        background-color: #D9D9D9;
+        border-radius: 10px;
+        margin-left: 10em;
+        width: 100em;
+    }
+    .feedbackIndividual h2 {
+        padding-top: 1rem;
+        margin: 50px;
+        margin-bottom: 1%;
+    }
+    .feedbackIndividual p {
+        padding: 2em;
+        padding-top: 0;
+        padding-left: 50px;
+    }
+    #modelo {
+        display: none;
+    }
     footer {
+        margin-top: 2%;
         background-color: #C4C4C4;
         display: flex;
         justify-content: space-around;
@@ -234,5 +252,22 @@
         border-radius: 10px;
         margin-right: 10em;
         margin-bottom: 3em;
+    }
+    .feedbackIndividual {
+        background-color: #D9D9D9;
+        border-radius: 10px;
+        padding: 1em;
+        width: 20em;
+        margin-left: 2em;
+        margin-bottom: 1em;
+        overflow: auto;
+    }
+    .feedbackIndividual p {
+        padding: 2em;
+        padding-top: 0;
+        
+    }
+    #modelo {
+        display: none;
     }
 }

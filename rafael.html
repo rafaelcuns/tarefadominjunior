@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
     <title>Rafael Cunha Siqueira</title>
   </head>
   <body>
@@ -50,14 +51,17 @@
 
       <section id="feedback">
         <h2>Feedback:</h2>
-        <form>
           <input type="text" name="nome" placeholder="Digite seu nome aqui"> <br> <br>
           <textarea name="feedback" placeholder="De um feedback ao desenvolvedor" rows="10"></textarea> <br>
           <div id="container">
             <button type="submit">Enviar</button>
           </div>
-          
-        </form>
+          <div id="feedbacks">
+            <div class="feedbackIndividual" id="modelo">
+              <h2>Nome da pessoa</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae laborum dolores ullam aliquid quisquam vitae sunt? Cupiditate nemo temporibus magnam iure voluptatum culpa voluptate architecto sunt adipisci similique, facere aliquam.</p>
+            </div>
+          </div>
       </section>
 
     </main>
